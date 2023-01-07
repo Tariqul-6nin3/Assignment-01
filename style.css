@@ -40,3 +40,112 @@
   color: #ffffff;
   margin-bottom: 35px;
 }
+
+/* credit section styles */
+.credit {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  gap: 178px;
+  margin-top: 240px;
+}
+.credit-title {
+  font-weight: 800;
+  font-size: 41px;
+  color: #151414;
+  margin-bottom: 30px;
+}
+.credit-descrip {
+  font-weight: 400;
+  font-size: 21px;
+  color: #444343;
+  margin-bottom: 25px;
+  line-height: 30px;
+}
+.failure {
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 19px;
+  color: #444343;
+}
+.title-section {
+  position: absolute;
+  top: 210px;
+  left: 766px;
+}
+#icon {
+  color: #005fac;
+  margin-right: 7px;
+}
+
+/* All Plans Styles */
+.plan-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 210px;
+}
+.plan-title {
+  font-weight: 700;
+  font-size: 55px;
+  color: #151414;
+  text-align: center;
+  margin-bottom: 95px;
+}
+.all-plans {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+.all-plans .info-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.all-plans .info-descrip {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+.all-plans .div1 {
+  background-color: #85a8c8;
+  padding: 12px 50px;
+  border-radius: 10px;
+}
+.all-plans .div2 {
+  background-color: #85cede;
+  padding: 15px 71px;
+  border-radius: 10px;
+}
+.all-plans .div3 {
+  background-color: #d393be;
+  padding: 16px 70px;
+  border-radius: 10px;
+}
+.all-plans .div4 {
+  background-color: #d4b576;
+  padding: 17px 70px;
+  border-radius: 10px;
+}
+/* Feature Section Styles */
+.feature-section {
+  background-image: url("./images/gradient1.png"), url("./images/watch.png");
+  max-width: 1140px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 210px;
+  position: relative;
+}
+.feature-title {
+  position: absolute;
+  left: 80px;
+  top: 53px;
+}
+.feature-title h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
