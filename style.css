@@ -131,12 +131,20 @@
 }
 /* Feature Section Styles */
 .feature-section {
-  background-image: url("./images/gradient1.png"), url("./images/watch.png");
-  max-width: 1140px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(3, 3, 237, 0.5) 20%,
+      rgba(8, 119, 162, 0.55) 40%,
+      transparent 80%
+    ),
+    url(./images/watch.png);
+  background-size: cover;
+  max-width: 1365px;
   height: 300px;
   margin: 0 auto;
   margin-top: 210px;
   position: relative;
+  margin-bottom: 200px;
 }
 .feature-title {
   position: absolute;
@@ -148,4 +156,89 @@
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 15px;
+}
+/* My gadget section started */
+.gadget-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 210px;
+  margin-bottom: 150px;
+  background-color: #d1afaf;
+  padding: 42px 127px;
+}
+.gadget-title {
+  text-align: center;
+  font-size: 41px;
+  margin-bottom: 65px;
+}
+.gadget-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  align-items: center;
+  padding: 31px 33px;
+}
+.gadget h3 {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.gadget {
+  text-align: center;
+}
+.gadget p {
+  font-size: 21px;
+  line-height: 25px;
+}
+/* Footer Section */
+.footer-section {
+  display: flex;
+  background-color: black;
+  justify-content: space-evenly;
+  padding: 128px;
+}
+.footer-info {
+}
+.footer-info h3 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 21px;
+}
+.footer-info p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  line-height: 23px;
+}
+.footer-icon img {
+  margin-right: 16px;
+  margin-top: 5px;
+}
+.footer-form {
+}
+.footer-form h5 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.footer-form #email {
+  font-weight: 700;
+  font-size: 18px;
+  color: #e4bfbf;
+  padding: 18px 21px;
+  background-color: #020202;
+  border: 2px solid #b99999;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footer-form #subscribe {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 19px 39px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #0b60da;
 }
