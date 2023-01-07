@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; */
   font-family: "Work Sans", sans-serif;
 }
 /* Some root styles */
@@ -26,7 +27,7 @@
   text-align: right;
   position: absolute;
   left: 1140px;
-  top: 295px;
+  top: 250px;
 }
 .banner-title {
   font-weight: 700;
@@ -48,7 +49,7 @@
   position: relative;
   display: flex;
   gap: 178px;
-  margin-top: 240px;
+  margin-top: 155px;
 }
 .credit-title {
   font-weight: 800;
@@ -157,19 +158,19 @@
   font-size: 40px;
   margin-bottom: 15px;
 }
-/* My gadget section started */
+/* My gadget section styles */
 .gadget-section {
   max-width: 1140px;
   margin: 0 auto;
   margin-top: 210px;
   margin-bottom: 150px;
-  background-color: #d1afaf;
+  background-color: #cdd6de;
   padding: 42px 127px;
 }
 .gadget-title {
   text-align: center;
   font-size: 41px;
-  margin-bottom: 65px;
+  margin-bottom: 40px;
 }
 .gadget-container {
   display: flex;
@@ -190,14 +191,12 @@
   font-size: 21px;
   line-height: 25px;
 }
-/* Footer Section */
+/* Footer Section Styles*/
 .footer-section {
   display: flex;
   background-color: black;
   justify-content: space-evenly;
   padding: 128px;
-}
-.footer-info {
 }
 .footer-info h3 {
   font-weight: 700;
@@ -215,8 +214,6 @@
 .footer-icon img {
   margin-right: 16px;
   margin-top: 5px;
-}
-.footer-form {
 }
 .footer-form h5 {
   font-weight: 600;
